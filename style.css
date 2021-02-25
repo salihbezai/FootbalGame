@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background: green;
+}
+
+.goal{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.cross-bar-1{
+    height: 100px;
+    width: 13px;
+    background-color: white;
+    margin-right: 250px;
+}
+
+.cross-bar-2{
+    height: 100px;
+    width: 13px;
+    background-color: white;
+}
+
+.cross-bar-3{
+    height: 10px;
+    width: 274px;
+    background-color: white;
+    position: absolute;
+    display: inline-block;   
+}
