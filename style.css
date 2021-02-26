@@ -29,3 +29,17 @@ body{
     position: absolute;
     display: inline-block;   
 }
+
+.player-stuff{
+ position: absolute;
+ top:500px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.ball{
+   mix-blend-mode: multiply;
+   position: absolute;
+   top: -45px;
+}
