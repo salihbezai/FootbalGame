@@ -38,8 +38,16 @@ body{
  justify-content: center;
 }
 
-.ball{
+#ball{
    mix-blend-mode: multiply;
    position: absolute;
    top: -45px;
+}
+.animate{
+    animation: shot 5s ease forwards;
+
+}
+@keyframes shot{
+    from{transform: translateY(100px);mix-blend-mode: multiply;}
+    to{transform: translateY(-500px);}
 }
