@@ -4,3 +4,8 @@ const shot = ()=>{
     ball.classList.add('animate')
     console.log('hello')
 }
+
+setInterval(()=>{
+console.log(parseInt(window.getComputedStyle(ball).getPropertyValue('top')))
+
+},0.0001)
