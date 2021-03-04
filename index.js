@@ -8,4 +8,4 @@ const shot = ()=>{
 setInterval(()=>{
 console.log(parseInt(window.getComputedStyle(ball).getPropertyValue('top')))
 
-},0.0001)
+},1)

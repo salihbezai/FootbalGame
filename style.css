@@ -31,7 +31,7 @@ body{
 }
 
 .player-stuff{
- position: absolute;
+ position: relative;
  top:500px;
  width: 100%;
  display: flex;
@@ -44,8 +44,7 @@ body{
    top: -45px;
 }
 .animate{
-    animation: shot 5s ease forwards;
-
+    animation: shot 1s ease forwards;
 }
 @keyframes shot{
     from{transform: translateY(100px);mix-blend-mode: multiply;}
