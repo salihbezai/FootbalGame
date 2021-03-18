@@ -37,7 +37,9 @@ body{
  display: flex;
  justify-content: center;
 }
-
+.player{
+    margin-left: 20px;
+}
 #ball{
    mix-blend-mode: multiply;
    position: absolute;
@@ -45,6 +47,7 @@ body{
 }
 
 .wall{
+    display: flex;
     position: absolute;
     left: 500px;
     top: 140px;
@@ -93,7 +96,7 @@ width: 50px;
 height: 40px;
 }
 .animate{
-    animation: shot 1s ease forwards;
+    animation: shot 2s ease forwards;
 }
 @keyframes shot{
     from{transform: translateY(100px);mix-blend-mode: multiply;}
